@@ -2,7 +2,7 @@
 
 ## 打开指定的域名分类列表地址
 ``` html
-http://ihttps.baidu.com/index.php/domain/all?cname=headline
+http://ihttps.xxxxx.com/index.php/domain/all?cname=headline
 ```
 
 ## 打开控制台，拷贝下面的代码运行
