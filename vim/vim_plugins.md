@@ -1,7 +1,24 @@
 # VIM 插件集合
 
+## VIM 插件查看小窍门
+```
+# 安装
+  1、可以使用VIM插件管理工具安装，如 Vundle [http://guqian110.github.io/pages/2014/04/16/learning_vim_vundle.html]
+  2、或者直接下载插件
+  `mkdir ~/.vim/doc ~/.vim/plugin ~/.vim/syntax/`
+  `cp *.vim ~/.vim/plugin/`
+  
+# 配置
+查看安装好后，一定记得查看是否需要配置文件（`~/.vimrc`），以及如何运用该插件
+
+# 查看
+当我们安装上一个插件不知道他的使用方式时，可以通过两种方式查看：
+  1、直接查看插件源码
+  2、或者百度一下
+```
+
 ## VIM tree 插件 （NERD_tree.vim） [推荐]
----
+
 ### DESC
 Linux终端可以在当前页面查看文件列表目录树的插件
 ### 配置说明
@@ -24,8 +41,9 @@ Ctrl + w + w
 切换到当前窗口 vim 命令行模式 :q
 ```
 
+
 ## VIM 文档注释插件 （DoxygenToolkit.vim） [推荐]
----
+
 ### DESC
 Linux终端快速为编写程序提供注释的插件
 ### 配置说明
@@ -68,7 +86,9 @@ let g:doxygen_enhanced_color=1
 > http://guqian110.github.io/pages/2015/01/12/learning_vim_doxygentoolkit.html
 > http://segmentfault.com/q/1010000000380438
 
+
 ## VIM 打开文件自动添加文档注释插件 （comdg.vim） [百度开发提供]
+
 ### DESC
 Linux终端新建文件时自动追加程序文档注释的插件
 ### 配置说明
@@ -80,7 +100,9 @@ Linux终端新建文件时自动追加程序文档注释的插件
 # 在新创建文件时触发
 ```
 
+
 ## VIM 快速注释插件 （comments.vim）
+
 ### DESC
 Linux终端快速代码注释的插件
 这个插件用起来还不错，适用于很多种语言：
@@ -94,8 +116,9 @@ c, c++, java, php, proc, css, html, htm, xml, xhtml, vim, vimrc, sql, sh, ksh, c
 ### 参考文档
 > http://www.2maomao.com/blog/vim-comments-plugin-modified/
 
+
 ## VIM 快速注释插件 （NERD_commenter.vim） [主要适用于C、C++,不推荐]
----
+
 ### DESC
 Linux终端注释代码的插件
 ### 配置说明
