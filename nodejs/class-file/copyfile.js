@@ -1,10 +1,15 @@
 var fs = require( 'fs' );
 var stat = fs.stat;
 
-/*
+/**
  * 复制目录中的所有文件包括子目录
- * @param{ String } 需要复制的目录
- * @param{ String } 复制到指定的目录
+ * 
+ * @brief function 
+ *
+ * @param src 需要复制的目录
+ * @param dst 复制到指定的目录
+ *
+ * @return 
  */
 var copy = function( src, dst ){
     // 读取目录中的所有文件/目录
@@ -37,7 +42,19 @@ var copy = function( src, dst ){
         });
     });
 };
-// 在复制目录前需要判断该目录是否存在，不存在需要先创建目录
+/**
+ * 在复制目录前需要判断该目录是否存在
+ * 不存在需要先创建目录
+ * 
+ * @brief function 
+ *
+ * @param src
+ * @param dst
+ * @param callback
+ *
+ * @return 
+ */
+
 var exists = function( src, dst, callback ){
     fs.exists( dst, function( exists ){
         // 已存在
