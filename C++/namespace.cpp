@@ -20,6 +20,7 @@ namespace myNum
 
     int setNum()
     {
+        // 需要定义多个输入变量值时，多个值间以空格分隔
         cout << "请输入整型:";
         cin >> x >> y;
 
