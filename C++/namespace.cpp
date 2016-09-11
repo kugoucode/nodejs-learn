@@ -28,14 +28,27 @@ namespace myNum
 
         return x;
     }
+
+    int hello()
+    {
+        int x = 1;
+        cout << boolalpha << x << endl;
+        return 0;
+    }
 }
 
 // 定义主入口
-int main()
-{
-    bool flag (false);
-    int b (10);
+int main() {
+    bool flag(false);
+    int b(10);
+
     cout << flag << "  == " << stu::x << endl;
+
+    myNum::hello();
+
+    std::cout << std::boolalpha
+              << "boolalpha true: " << true << '\n'
+              << "boolalpha false: " << false << '\n';
 
     stu::fun();
 
@@ -43,24 +56,18 @@ int main()
 
     bool isFlag = false;
 
-    if(myNum::x % 2 ==0)
-    {
+    if (myNum::x % 2 == 0) {
         isFlag = false;
-    }
-    else
-    {
+    } else {
         isFlag = true;
     }
 
-    if(isFlag)
-    {
+    if (isFlag) {
         cout << myNum::x << "  是奇数" << endl;
-    }
-    else
-    {
+    } else {
         cout << myNum::x << "  是偶数" << endl;
     }
-    return 0;
 }
+
 
 /* vim: set ts=4 sw=4 sts=4 tw=100 */
