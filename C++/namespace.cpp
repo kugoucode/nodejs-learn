@@ -38,7 +38,8 @@ namespace myNum
 }
 
 // 定义主入口
-int main() {
+int main()
+{
     bool flag(false);
     int b(10);
 
