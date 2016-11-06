@@ -1,3 +1,5 @@
+```bash
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " 显示相关  
@@ -580,3 +582,4 @@ let g:miniBufExplMapWindowNavArrows = 1
 
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
+```

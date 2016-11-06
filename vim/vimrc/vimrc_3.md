@@ -1,7 +1,7 @@
 ```bash
-[work@st01-img-vip-as56.st01.baidu.com black]$ cat ~/.vimrc
+[work@xxx.baidu.com black]$ cat ~/.vimrc
 "   file: .vimrc
-" author: liushaofen01
+"   author: wangming
 "   date: 2014-10-21
 
 set nocompatible
